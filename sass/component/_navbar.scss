@@ -220,10 +220,37 @@
         display: flex;
     }
     .primary-menu .navbar-brand img {
-        width: 100px;
+        width: 87px;
+    }
+    .primary-menu .bars i {
+        margin-right: 13px;
     }
     nav .from1 .form-control {
         display: none;
     }
-   
+    .primary-menu .mega-menu {
+        width: 190px;
+        text-align: center;
+    }
+    .primary-menu .mega-menu2 {
+        width: 120px;
+    }
+    .nav-item .nav-link {
+        font-size: 12px;
+    }
+    .primary-menu .but2 .btn {
+        font-size: 9px;
+        padding: 6px 10px;
+    }
+    .primary-menu .but1 .btn {
+        font-size: 12px;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .primary-menu .from1 .btn {
+        right: -15px;
+        top: -17px;
+        font-size: 13px;
+    }
  }
