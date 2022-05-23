@@ -1,0 +1,5 @@
+@mixin divsize($w,$h,$bg){
+    width:$w;
+    height: $h;
+    background-color: $bg;
+}

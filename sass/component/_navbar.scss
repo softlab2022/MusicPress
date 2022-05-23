@@ -1,0 +1,230 @@
+@import "../mixin/divsize";
+@import "../variable/backgroundbg";
+@import "../variable/fontcolor";
+
+.primary-menu {
+    .from1 .form-control {
+        width: 600px;
+        border-radius: 50px;
+    }
+    
+    .from1{ 
+        position: relative;
+    }
+    .form-control:hover{
+        border-color: #ff3834;
+    }
+    .from1 .btn {
+        position: absolute;
+        right: 10px;
+    }
+    .from1 .btn i:hover{
+            color: #ff3834;
+        
+    }
+    .form-control:focus {
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .btn-outline-success {
+        color: #000;
+        border-color: none;
+        border: none;
+    }
+    *,::before {
+        cursor: pointer;
+    }
+    .btn-check:focus + .btn-outline-success, .btn-outline-success:focus {
+        box-shadow: none;
+    }
+    .but1 .btn {
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    
+    .but2 .btn {
+        font-size: 16px;
+        text-transform: capitalize;
+        background-color: #ff3834;
+        color: #fff;
+        padding: 8px 23px;
+        border-radius: 20px;
+    }
+    .but2 .btn i {
+        margin-right: 15px;
+    }
+    .btn-outline-success:hover {
+        display: none;
+    }
+    .bars i {
+        margin-right: 25px;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    .btn-check:focus + .btn, .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+ 
+  
+    /* nav bar part end*/
+    
+    /*mega menu*/
+    .nav-item{
+        padding: 0 10px;
+        position: relative;
+    }
+    .nav-item:hover>.mega-menu{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(-50%) scaleY(1);
+    }
+    .mega-menu{
+        position: absolute;
+        top: 48px;
+        left: 50%;
+        transform-origin: top;
+        transform: translateX(-50%) scaleY(0);
+        width: 480px;
+        background-color: #f1f1f1;
+        padding: 15px 15px;
+        box-sizing: border-box;
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear .3s;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .inner-mega{
+        margin-bottom: 30px;
+    }
+    .inner-mega h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: #ff5500;
+        text-transform: capitalize;
+    }
+    .mega-body ul li{
+        padding: 5px 0;
+    }
+    .mega-body ul li a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        transition: all linear .3s;
+        text-transform: capitalize;
+    }
+    .mega-body ul li a:hover{
+        color: red;
+        padding-left: 8px;
+    }
+    ol, ul {
+        padding-left: 0;
+    }
+    /* mega menu end*/
+    /*mega menu 2 start*/
+    .nav-item{
+        padding: 0 10px;
+        position: relative;
+    }
+    .nav-item:hover>.mega-menu2{
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(-50%) scaleY(1);
+    }
+    .mega-menu2{
+        position: absolute;
+        top: 48px;
+        left: 50%;
+        transform-origin: top;
+        transform: translateX(-50%) scaleY(0);
+        width: 200px;
+        background-color: #f1f1f1;
+        padding: 15px 15px;
+        box-sizing: border-box;
+        visibility: hidden;
+        opacity: 0;
+        transition: all linear .3s;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .inner-mega{
+        margin-bottom: 30px;
+    }
+    .inner-mega h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: #ff5500;
+        text-transform: capitalize;
+    }
+    .mega-body ul li{
+        padding: 5px 0;
+    }
+    .mega-body ul li a{
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        transition: all linear .3s;
+        text-transform: capitalize;
+    }
+    .mega-body ul li a:hover{
+        color: red;
+        padding-left: 8px;
+    }
+    ol, ul {
+        padding-left: 0;
+    }
+    /* mega menu2 end*/
+    .side-menu li {
+        list-style-type: none;
+    }
+    .nav-link:focus, .nav-link:hover {
+        color: #ff3834;
+    }
+    
+}
+
+.navbar-expand-lg{
+        border-bottom: 1px solid #ddd;
+    }
+
+
+.nav-item{
+        .nav-link{
+            color: #000;
+
+        }
+}
+
+.navbar-brand{
+    margin-right: auto;
+    line-height: 1px;
+}
+
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+	border: none!important;
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+    .primary-menu .container-fluid {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .primary-menu .navbar-brand {
+        display: flex;
+    }
+    .primary-menu .navbar-brand img {
+        width: 100px;
+    }
+    nav .from1 .form-control {
+        display: none;
+    }
+   
+ }
