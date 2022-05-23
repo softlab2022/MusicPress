@@ -321,7 +321,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .side-menu i {
   margin-right: 10px;
-  color: #c00;
+  color: #ff3834;
 }
 
 .side-menu .nav-item {
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .side-menu .nav-item.nav-link, .side-menu .nav-itemi {
   padding: 0;
-  color: #c00;
+  color: #ff3834;
 }
 
 .side-menu .nav-item:hover > .mega-menu2 {
