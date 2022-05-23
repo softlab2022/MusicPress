@@ -254,3 +254,39 @@
         font-size: 13px;
     }
  }
+// Small devices (landscape phones, less than 991px)
+@media (max-width: 991px) { 
+    .primary-menu .container-fluid {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .primary-menu .navbar-brand {
+        display: flex;
+    }
+    .primary-menu .navbar-brand img {
+        width: 120px;
+    }
+    .primary-menu .bars i {
+        margin-right: 13px;
+    }
+    .primary-menu .from1 .form-control {
+        width: 356px;
+    }
+    .nav-item .nav-link {
+        font-size: 14px;
+    }
+    .primary-menu .but2 .btn {
+        font-size: 9px;
+        padding: 6px 10px;
+    }
+    .primary-menu .but1 .btn {
+        font-size: 12px;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .primary-menu .mega-menu {
+        width: 380px;
+        text-align: center;
+    }
+ }
