@@ -1,7 +1,6 @@
 @import "../mixin/divsize";
 @import "../variable/backgroundbg";
 @import "../variable/fontcolor";
-
 .primary-menu {
     .from1 .form-control {
         width: 600px;
@@ -188,7 +187,7 @@
 }
 
 .navbar-expand-lg{
-        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid $navbarbodercolor;
     }
 
 
