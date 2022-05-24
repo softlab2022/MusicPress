@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: none !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
   .primary-menu .container-fluid {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991.98px) {
   .primary-menu .container-fluid {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -356,6 +356,40 @@ h1, h2, h3, h4, h5, h6, p {
   .primary-menu .mega-menu {
     width: 380px;
     text-align: center;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .primary-menu .container-fluid {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .primary-menu .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .primary-menu .navbar-brand img {
+    width: 120px;
+  }
+  .primary-menu .bars i {
+    margin-right: 13px;
+  }
+  .primary-menu .from1 .form-control {
+    width: 410px;
+  }
+  .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .primary-menu .but2 .btn {
+    font-size: 10px;
   }
 }
 
