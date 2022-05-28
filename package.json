@@ -1,0 +1,48 @@
+{
+  "name": "wp-radio",
+  "version": "3.1.9",
+  "description": "Completed:\r ---\r 1.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princeahmed/wp-radio-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princeahmed/wp-radio-dev/issues"
+  },
+  "homepage": "https://github.com/princeahmed/wp-radio-dev#readme",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/register": "^7.17.7",
+    "babel-loader": "^8.2.5",
+    "browser-sync": "^2.27.9",
+    "css-loader": "^6.7.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-checktextdomain": "^2.2.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-zip": "^5.1.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^7.0.0",
+    "yargs": "^17.4.1"
+  },
+  "dependencies": {
+    "react-tooltip": "^4.2.21"
+  }
+}
