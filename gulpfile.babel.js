@@ -134,7 +134,7 @@ export const js = () => {
 
 export const serve = done => {
     server.init({
-        proxy: `musicpress.local`
+        proxy: `localhost/music-press`
     });
 
     done();
