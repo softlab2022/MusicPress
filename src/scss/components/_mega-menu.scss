@@ -18,7 +18,7 @@
     content: '';
     position: absolute;
     top: -10px;
-    left: 50%;
+    left: 47%;
     transform-origin: top;
     width: 0;
     height: 0;
@@ -34,6 +34,7 @@
   &-title {
     font-size: 1rem;
     font-weight: 500;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
@@ -44,7 +45,8 @@
       .nav-link {
         padding: 5px 0;
         color: #fff;
-
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
         &:hover {
           color: var(--primary-color);
         }
